@@ -49,6 +49,6 @@ contract ArtToken is ERC721, Ownable {
     
     // Extraction of ethers from the Smart Contract to the Owner
     function withdraw() 
-    }
+    
 
 }
