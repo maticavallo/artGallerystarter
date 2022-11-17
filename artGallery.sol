@@ -48,9 +48,7 @@ contract ArtToken is ERC721, Ownable {
     // NFT Token Payment
     
     // Extraction of ethers from the Smart Contract to the Owner
-    function withdraw() external payable onlyOwner{
-        address payable _owner = payable(owner());
-        _owner.transfer(address(this).balance);
+    function withdraw() 
     }
 
 }
